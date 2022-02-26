@@ -1,10 +1,21 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>data page </title>
     </head>
     <body>
-        <h1> Kemel </h1> 
-        <em>Я учусь в <strong>BIL</strong>, ученик 9-го класса. </em>
+        <table cellspacing="30">
+            <tr>
+                <td>        <img   src="https://i.pinimg.com/originals/da/22/3a/da223ae7c1fab905dc89d627d2063103.jpg" width="200" alt="тут моя фотка"/>
+
+                    <td>
+                        <h1> Kemel </h1> 
+                        <em>Я учусь в <strong>BIL</strong>, ученик 9-го класса. </em>
+                    
+                    </td>
+                </td>
+            </tr>
+        </table>
         <hr />
         <h2>Мои социальные сети:</h2>
         <ol>
@@ -15,12 +26,62 @@
                 <a href="https:vk.com/shellyfulllvl/" target="_blank">Vk </a>
             </li>
         </ol>
-        <ul>
+        <hr/>
+        <ul type="square">
             <h1><sub>Мои хобби:</sub></h1>
             <li> Смотрю сериалы/аниме. </li>
             <li> Спорт: воллейбол, дзюдо. </li>
             <li> Переодически играю в игры. </li>
         </ul>
+        <hr/>
+
+        <h2>Учеба:</h2>
+        <table border="2">
+            <tr>
+                <th> Название </th>
+                <th>Город</th>
+                <th>Год</th>
+            </tr>
+            <tr> 
+                <td> Гимназия 6 </td>
+                <td> Семей </td>
+                <td> 2013-2017 </td>
+            </tr>
+            <tr>
+                <td> Школа 39 </td>
+                <td> Усть-Каменогорск </td>
+                <td> 2018-2019 </td>
+            </tr>  
+            <tr>
+                <td> BIL </td>
+                <td> Semey </td>
+                <td> 2019-2021 </td>
+            </tr>
+            <tr>
+                <td> BIL </td>
+                <td> Ust - Kamenogorsk </td>
+                <td> 2021- nowadays </td>
+            </tr>
+        </table>
+        <hr/>
+        <h2> Связаться со мной </h2>
+        <form>
+            <label for="name"> Имя</label>
+            <input type="text" id="name"
+            placeholder="click for texting" >
+            <br/>
+            <label for="email"> Почта</label>
+            <input type="email" id="email"
+            placeholder="click for texting" >
+            
+            <br/>
+            <label for="text"> Сообщение</label>
+            <br/>
+            <textarea id="text" rows="5" cols="15"> </textarea> 
+        </br>>
+            <input type="submit" value="скинуть Кемелю">
+
+        </form>
 
     </body>
 </html>
