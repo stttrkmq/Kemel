@@ -1,0 +1,9 @@
+.weatherinfo{
+    background-color: rgb(157, 187, 241);
+    color: #12395a;
+    font: caption;
+}
+.photo{
+    width: 300px;
+    border-radius: 10%;
+}
